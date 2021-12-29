@@ -110,6 +110,10 @@
         </section>
         <?php endwhile; ?>
         
+        <button type="button" onclick="window.print();" class="btn btn-success print-btn" id="print-btn" style="position: absolute; top: 2%; right: 9%;">
+            <i class="fal fa-print"></i>
+            Print Result
+        </button>
         <a href="studentlogout.php" class="btn btn-warning student-logout-btn"><i class="far fa-times-circle"></i> Close</a>
     </main>
 
